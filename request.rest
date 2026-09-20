@@ -1,0 +1,18 @@
+GET http://localhost:8000
+
+###
+GET http://localhost:8000/api/v1/books/read
+
+###
+POST http://localhost:8000/api/v1/books/create
+Content-Type: application/json
+
+{
+    "date_and_time": "2025-06-15",
+    "first_name": "Sabbir",
+    "last_name": "Hosain",
+    "phone": "01793273703",
+    "email": "admina@gmail.com",
+    "password": "12345678",
+    "confirm_password": "12345678"
+}
